@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(30, 30, 30);
+}
+
+header{
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.logo_autotech{
+    display: flex;
+    gap: 1px;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0.5% 4%;
+}
+
+.est1_bot_menu{
+    color:#000000;
+    font-size:20px;
+
+    text-decoration: none; /* Remove o sublinhado */
+
+
+
+}
+
+
+.est2_bot_menu2{
+    background-color:#0B2E86;
+    color: aliceblue;
+    border-radius: 10px;
+    width:90% ;
+    font-size: 20px; /* Tamanho da fonte */
+    text-decoration: none; /* Remove o sublinhado */
+    gap: 120px;
+   
+   
+   
+    outline: none; /* Remove o contorno padrão ao focar */
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2); /* Efeito de foco */
+
+
+}
+
+.menu{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-right: 45%;
+}
+
+.text{
+
+    display: flex;
+    text-decoration: none;
+}
+
+
+.main_flexcont{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.container_esquerdo{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background-color: rgb(255, 255, 255);
+   border-radius: 15px;
+   margin-left: 20%;
+   height: 60vh;
+   gap: 30px;
+   width: 43vh;
+   text-align: center;
+}
+
+
+.titulo2{
+    color: white;
+    font-size: 49;
+}
+
+
+.titulo1{
+    color: white;
+    font-size: 50px;
+}
+
+.imagemMecanico{
+    width: 600px;
+    height: 847px;
+}
+
+
+.logo{
+display: inline-block;
+height: 75px;
+
+}
+
+.botoes_meusCarros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    background-color: #333333;
+    width: 80%;
+    height: 10%;
+    border-radius: 15px;
+    font-size: 29px;
+    justify-content: center;
+}
+
+.botoes_encontre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    background-color: #333333;
+    width: 80%;
+    height: 10%;
+    border-radius: 15px;
+    font-size: 29px;
+    justify-content: center;
+}
+
+.botoes_cuidado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    background-color: #333333;
+    width: 80%;
+    height: 10%;
+    border-radius: 15px;
+    font-size: 29px;
+    justify-content: center;
+}
+
+.botoes_infoImportantes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    background-color: #333333;
+    width: 80%;
+    height: 10%;
+    border-radius: 15px;
+    font-size: 29px;
+    justify-content: center;
+}
+
+.botoes_guinchos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    background-color: #333333;
+    width: 80%;
+    height: 10%;
+    border-radius: 15px;
+    font-size: 29px;
+    justify-content: center;
+}
+
+.mapa{
+    width: 50%;
+    height: 847px;
+}
