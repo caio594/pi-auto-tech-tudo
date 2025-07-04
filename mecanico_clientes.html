@@ -9,50 +9,61 @@
 <body>
     <header class="cabecalho">
         <div class="logo_autotech">
-            <img class="logo"   src="imagens/logo.png">
+            <a class="logo" href="inicio.html">
+                <img src="logo.png" class="logo">
+            </a>
             <h1 class="AutoTech">AutoTech</h1>
         </div>
-
         <div class="menu">
-           
             <a href="sobre.html" class="est1_bot_menu"><b>Sobre</b></a>
             <a href="informacoes.html" class="est1_bot_menu"><b>Informações</b></a>
-
-
         </div>
-
-
     </header>
 
-    <main>
-        <section class="clientes_sel" >
-            <div class="mecanicos">
-                <h1 class="titulo_clientes">Clientes</h1>
-                <input class="input_clientes" type="text">
-                <p class="clientes">Alex Correa de Silva Silver</p>
-                <p class="clientes">Carlos Figuieredo do Santos</p>
+    <main class="main_flexcont">
+
+        <section class="painel">
+            <!-- COLUNA ESQUERDA -->
+            <div class="clientes_sel">
+                <h1 class="titulo_clientes">CLIENTES</h1>
+                <input class="input_clientes" type="text" placeholder="Pesquisar">
+                <p class="clientes">Alex Correa da Silva Silver</p>
+                <p class="clientes selecionado">Carlos Figueiredo do Santos</p>
                 <p class="clientes">Caio Matheus Enzo</p>
+                <div class="imagem_pessoa_container">
+                    <img class="imagem_pessoa" src="pessoa.png" alt="Foto Cliente">
+                </div>
             </div>
 
-            <div>
-                <img class="imagem_pessoa" src="imagens/pessoa.png" alt="">
+            <!-- COLUNA CENTRAL -->
+            <div class="informacoes">
+                <h1 class="informacoes_cliente nome">Carlos Figueiredo do Santos</h1>
+                <hr>
+                <p class="informacoes_cliente">CPF: 023.758.345-90</p>
+                <p class="informacoes_cliente">Celular: (55) 9976-6799</p>
+                <p class="informacoes_cliente">Idade: 44 anos</p>
+                <p class="informacoes_cliente">Rua: Assis Brasil</p>
+                <p class="informacoes_cliente">Nº: 234</p>
+                <p class="informacoes_cliente">Bairro: Centro</p>
+                <p class="informacoes_cliente">Cidade: São Luiz Gonzaga</p>
+                <p class="informacoes_cliente">Estado: Rio Grande do Sul</p>
+
+                <div class="carros">
+                    <h2>Carros:</h2>
+                    <button class="carro-btn">Dodge Charger R/T 1968</button>
+                    <button class="carro-btn">Camaro ZL1 1LE</button>
+                </div>
             </div>
 
+            <!-- COLUNA DIREITA -->
+            <div class="menu_lateral">
+                <img class="imagem_pessoa" src="pessoa.png" alt="Icone Usuário">
+                <button class="btn_lateral">💬 CHAT</button>
+                <button class="btn_lateral">Novo orçamento</button>
+                <button class="btn_lateral">Serviços</button>
+                <button class="btn_lateral">serviço atual</button>
+            </div>
         </section>
-            <h1>Carlos Figueiredo do Santos</h1>
-            
-        <section>
-
-            
-        </section>
-
-
-
     </main>
-
-
-
-
-
-
 </body>
+</html>

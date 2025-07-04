@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* ------------------ GERAL ------------------ */
+
+body {
+    background-color: #1e1e1e;
+    color: white;
+    padding: 30px;
+}
+
+header {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_autotech {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo{
+    width: 100px;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-right: 45%;
+}
+
+.est1_bot_menu {
+    color: #000;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.est2_bot_menu2 {
+    background-color: #0B2E86;
+    color: aliceblue;
+    border-radius: 10px;
+    width: 90%;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 8px;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    display: flex;
+    background-color: #474747;
+    margin: 40px auto;
+    border-radius: 30px;
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+}
+
+/* Lado esquerdo */
+.lado-esquerdo {
+    width: 30%;
+    background-color: #3c3c3c;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.box-titulo {
+    background-color: #5a5a5a;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.box-titulo h2 {
+    color: white;
+    font-size: 20px;
+}
+
+.imagem-perfil img {
+    width: 80%;
+    border-radius: 20px;
+    background-color: white;
+    padding: 10px;
+}
+
+/* Lado direito */
+.lado-direito {
+    width: 70%;
+    padding: 30px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cabecalho-direito {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nome {
+    font-size: 24px;
+    text-transform: lowercase;
+}
+
+.chat-botao {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.divisoria {
+    margin: 10px 0 20px;
+    border: 1px solid #aaa;
+}
+
+.info p {
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.info a {
+    color: #80c0ff;
+    text-decoration: none;
+}
+
+.especialidades {
+    margin-top: 30px;
+    background-color: #5a5a5a;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.especialidades h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.logos {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logos img {
+    height: 60px;
+    object-fit: contain;
+    background-color: transparent;
+}

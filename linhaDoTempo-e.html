@@ -3,46 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AutoTech</title>
-    <link rel="stylesheet" href="linhaDoTempo.css">
+    <title>Linha do Tempo - AutoTech</title>
+    <link rel="stylesheet" href="linhaDoTempo-e.css">
 </head>
 <body>
     <header class="cabecalho">
         <div class="logo_autotech">
-            <img class="logo"   src="imagens/logo.png">
+            <img src="logo.png" class="logo" alt="Logo">
             <h1 class="AutoTech">AutoTech</h1>
         </div>
-
         <div class="menu">
             <a href="sobre.html" class="est1_bot_menu"><b>Sobre</b></a>
             <a href="informacoes.html" class="est1_bot_menu"><b>Informações</b></a>
         </div>
-
-
     </header>
 
-    <main class="main_flexcont">
-            <section class="container_esquerdo">
-               <h1 class="linhadotempo">Linha Do Tempo</h1>
-               <img class="imagemcivic" src="imagens/civic.png">
-               <a href="**" class="botap_reparo">Adicionar Reparo/Manutenção</a>
-               <button class="botao_exportar">Exportar como PDF</button>
+    <main class="conteudo">
+        <section class="coluna-esquerda">
+            <h2 class="linha-tempo-titulo">Linha do tempo</h2>
+            <img src="civic.png" alt="Carro" class="carro-imagem">
+            <button class="btn-esquerda">Adicionar reparo/Manutenção.</button>
+            <button class="btn-esquerda">Exportar como PDF</button>
+        </section>
 
-            </section>
+        <section class="coluna-direita">
+            <h2 class="titulo-veiculo">Honda Civic 1.8 EXL 2020</h2>
+            <hr class="linha-divisoria">
 
-           
-            <div class="container_direito">
-                <img class="imagemLinhaTempo" src="imagens/linhadotempo.png ">
+            <div class="linha-do-tempo">
+                <div class="ponto">
+                    <div class="bolinha"></div>
+                    <div class="info">
+                        <h3>FEV-2020</h3>
+                        <ul>
+                            <li>Óleo</li>
+                            <li>Filtro óleo</li>
+                            <li>Filtro Comb.</li>
+                            <li>Filtro de ar.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="ponto">
+                    <div class="bolinha"></div>
+                    <div class="info">
+                        <h3>JUL-2020</h3>
+                        <ul>
+                            <li>Amortecedores Diant/</li>
+                            <li>Buchas Susp Diant</li>
+                            <li>Limpeza ar/cond</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="ponto">
+                    <div class="bolinha"></div>
+                    <div class="info">
+                        <h3>JAN-2021</h3>
+                        <ul>
+                            <li>Susp. Tras.</li>
+                            <li>Óleo</li>
+                            <li>Filtro óleo</li>
+                            <li>Filtro Comb</li>
+                            <li>Filtro ar</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="seta-final">→</div>
             </div>
-
-
-
-
-
+        </section>
     </main>
-
-    
-
-    <footer> </footer>
 </body>
 </html>

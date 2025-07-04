@@ -1,124 +1,167 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* fontes */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
 
-:root{
-    --font-principal: "Montserrat";
-
+:root {
+    --font-principal: "Montserrat", sans-serif;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
-}
-body{
-    background-color: rgb(30, 30, 30);
+    font-family: var(--font-principal);
+    box-sizing: border-box;
 }
 
-header{
+body {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+/* Cabeçalho */
+header {
     background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+}
+
+.logo_autotech {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 60px;
+    margin-right: 10px;
+}
+
+.AutoTech {
+    color: black;
+}
+
+.menu a {
+    text-decoration: none;
+    margin-left: 20px;
+    background-color: #0B2E86;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+/* Layout principal */
+.main_flexcont {
+    display: flex;
+    justify-content: center;
     padding: 20px;
 }
 
-.main{
+.painel {
     display: flex;
-    justify-content: space-around;
-}
-.menu{
-    width: 60%;
-    display: flex;
-    justify-content: end;
-    gap: 30px;
-    align-items: center;
-
-}
-.main_flexcont{
-    
-    display: flex;
-    flex-direction: column;
-    
+    gap: 20px;
+    width: 100%;
 }
 
-
-.logo_autotech{
-    display: flex;
-    align-items: center;
-}
-.logo{
-    display: inline-block;
-    height: 75px;
-    }
-
-
-.cabecalho{
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
-    padding: 0.5% 4%;
-}
-
-.est1_bot_menu{
-    color:#f3f3f3;
-    font-size:20px;
-    text-decoration: none; /* Remove o sublinhado */
-    background-color: #0B2E86;
-    padding: 1%;
-    border-radius: 10px;
-}
-
-
-.menu_lateral{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 1%;
-
-}
-
-.mecanicos{
+/* CLIENTES - coluna esquerda */
+.clientes_sel {
+    width: 25%;
     background-color: white;
-    display: flex;
-    flex-direction: column;
-    width: 25%;
-    align-items: center;
+    color: black;
+    padding: 20px;
     border-radius: 20px;
-    margin-bottom: 20px;
 }
 
-.titulo_clientes{
-    
+.titulo_clientes {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
 }
 
-.imagem_pessoa{
-    background-color: #ffffff;
+.input_clientes {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
     border-radius: 20px;
-    width: 25%;
-
+    border: none;
 }
 
-.clientes_sel{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-top: 20px;
-    margin-left: 40px;
+.clientes {
+    background-color: #2c2c2c;
+    color: white;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
 }
 
-.clientes{
+.selecionado {
+    background-color: #787878;
+}
+
+.imagem_pessoa_container {
     display: flex;
     justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 20px;
-    margin-top: 2px;
-    margin-bottom: 2px;
-    background-color: black;
-    color: #ffffff;
-    width: 100%;
-    height: 50px;
+    margin-top: 20px;
 }
 
-.input_clientes{
-    border-radius: 20px;
-    width: 60%;
-    height: 25px;
-    margin-bottom: 3%;
+.imagem_pessoa {
+    width: 120px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+/* INFORMAÇÕES - coluna central */
+.informacoes {
+    width: 50%;
+}
+
+.informacoes_cliente {
+    font-size: 18px;
+    margin: 8px 0;
+    text-align: left;
+}
+
+.informacoes_cliente.nome {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.carros {
+    margin-top: 20px;
+}
+
+.carro-btn {
+    display: block;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    width: fit-content;
+    font-weight: 600;
+}
+
+/* MENU LATERAL - coluna direita */
+.menu_lateral {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.btn_lateral {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 80%;
+    text-align: center;
 }

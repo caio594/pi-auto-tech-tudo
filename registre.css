@@ -30,7 +30,12 @@ header{
     font-size:20px;
 
     text-decoration: none; /* Remove o sublinhado */
-
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+   align-items: center;
 
 
 }
@@ -40,18 +45,22 @@ header{
     background-color:#0B2E86;
     color: aliceblue;
     border-radius: 10px;
-    width:90% ;
+    width:100% ;
     font-size: 20px; /* Tamanho da fonte */
     text-decoration: none; /* Remove o sublinhado */
     gap: 120px;
-   
+    height: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
    
    
     outline: none; /* Remove o contorno padrão ao focar */
-    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2); /* Efeito de foco */
+   
 
 
 }
+
 
 .menu{
     display: flex;

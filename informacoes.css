@@ -4,7 +4,6 @@
 }
 body{
     background-color: rgb(30, 30, 30);
-   
 }
 
 header{
@@ -22,7 +21,7 @@ header{
     display: flex;
     align-items: center;
     justify-content:space-between;
-    padding: 0.5% 4%;
+    
 }
 
 .est1_bot_menu{
@@ -62,7 +61,6 @@ header{
 
 }
 
-
 .menu{
     display: flex;
     gap: 30px;
@@ -80,16 +78,15 @@ header{
 .main_flexcont{
     
     display: flex;
-    width: 100%;
-    text-align: center;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
 }
 
 .container_esquerdo{
 
    align-items: center;
-   justify-items: center;
+   justify-content: center;
    padding-left: 6%;
     
 }
@@ -100,48 +97,27 @@ header{
 
 .titulo2{
     color: white;
-    font-size: 49;
+    font-size: 20px;
+    margin-right: 5%;
 }
 
 
 .titulo1{
     color: white;
     font-size: 50px;
+    margin-bottom: 2%;
 }
 
 .imagemMecanico{
     width: 700px;
-    height: 847px;
+    height: 850px;
 }
 
 
 .logo{
 display: inline-block;
 height: 75px;
-}
 
-.input_estados{
-    display: flex;
-    border-radius: 8px;
-    width: 50%;
-    text-align: center;
-    height: 50px;
-    font-size: 25px;
-    margin-top: 10px;
-    align-items: center;
-}
 
-.botao_procurarmecanicos{
-    display: flex;
-    align-items: center;
-    border-style: solid;
-    border-color: #0B2E86;
-    border-width: 3px;
-    border-radius: 10px;
-    background-color: #ffffff;
-    width: 20%;
-    height: 40px;
-    font-size: 18px;
-    justify-content: center;
-    margin-top: 2%;
+
 }

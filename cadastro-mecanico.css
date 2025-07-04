@@ -76,7 +76,7 @@ header{
 
 .todos{
     display: flex;
-    width: 50%;
+    width: 40%;
    
     flex-direction: column;
 
@@ -111,4 +111,7 @@ header{
 .imagemMecanico{
     width: 100%;
     height:auto;
+}
+.est1_bot_menu{
+    width:15%;
 }

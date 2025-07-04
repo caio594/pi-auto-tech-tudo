@@ -1,0 +1,123 @@
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+header {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  color: black;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  background-color: #333;
+  height: calc(100vh - 80px);
+  border-radius: 20px;
+  margin: 20px;
+  overflow: hidden;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #444;
+  padding: 30px 20px;
+}
+
+.sidebar h2 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 40px;
+}
+
+.sidebar button {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  padding: 20px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.calendar {
+  flex: 1;
+  padding: 20px;
+  background-color: #ddd;
+}
+
+.calendar table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ddd;
+}
+
+.calendar th, .calendar td {
+  border: 1px solid #ccc;
+  width: 14.28%;
+  height: 80px;
+  text-align: center;
+  vertical-align: top;
+  color: #1e1e1e;
+  position: relative;
+}
+
+.hoje {
+   background-color: #0056b3;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto; /* centraliza o círculo na célula */
+  font-weight: bold;
+  font-size: 16px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.4); /* opcional: sombra leve */
+}
+
+.feriado {
+  background-color: #006400;
+  color: white;
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.main_flex{
+    display: flex;
+    width: 80%;
+    height: 90%;
+    margin-top: 5%;
+    margin-left: 9%;
+}

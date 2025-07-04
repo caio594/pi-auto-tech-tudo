@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoTech</title>
+    <link rel="stylesheet" href="mecanicoadm.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="logo_autotech">
+            <a class="logo"  href="inicio.html" > <img src="logo.png" class="logo">   </a>
+            <h1 class="AutoTech">AutoTech</h1>
+        </div>
+
+        <div class="menu">
+           
+            <a href="sobre.html" class="est1_bot_menu"><b>Sobre</b></a>
+            <a href="informacoes.html" class="est1_bot_menu"><b>Informações</b></a>
+
+
+        </div>
+
+
+    </header>
+
+    <main class="main_flexcont">
+       
+            <section class="titulo">
+                
+                <h1 class="titulo-clientes"></h1>
+                <h1 class="titulo-clientes">Cadastrar Cliente:</h1>
+            </section>
+            <div class="tudo">
+
+            <div class="informacoes">
+
+            <form class="todos" id="form-clientes">
+
+
+                
+                <div class="container_form_mecanico">
+                  <input type="hidden" id="cliente_id"/>
+
+                </div>
+
+                <div class="container_form_mecanico">
+                    <label class="todos-es">E-mail:</label>
+                    <input  class="escrita" id="cliente_email"type="text">
+                </div>
+
+                <div class="container_form_mecanico">
+                    <label class="todos-es">Nome:</label>
+                    <input class="escrita" id="cliente_nome"type="text">
+                </div>
+
+                <div class="container_form_mecanico">
+                    <label class="todos-es">Sobrenome:</label>
+                    <input class="escrita" id="cliente_sobrenome" type="text">
+                </div>
+
+                <div class="container_form_mecanico">
+                    <label class="todos-es">Celular:</label>
+                    <input class="escrita" id="cliente_celular" type="text">
+                </div>
+
+                <div class="container_form_mecanico">
+                    <label class="todos-es">Cidade:</label>
+                    <input class="escrita" id="cliente_cidade" type="text">
+                </div>
+
+                <div class="container_form_mecanico">
+                    <label class="todos-es">Rua:</label>
+                    <input class="escrita" id="cliente_rua" type="text">
+                </div>
+
+                <div class="container_form_mecanico">
+                    <label class="todos-es">CPF:</label>
+                    <input class="escrita" id="cliente_cpf" type="text">
+                </div>
+
+
+                <button class="botoes_formulario">Salvar</button>
+            </form>
+            
+
+                
+
+
+
+            </div>
+           
+
+                    <div class="clientesCadas">      
+                    
+                    <h1 class="titulo_clientes">Clientes Cadastrados:</h1>
+                    <ul class="container_cadastro_clientes_ul" id="container_cadastro_clientes_ul">
+
+                        
+                        <li class="cartao_clientes" id="cartao_clientes">
+                            
+                            <p class="cliente">Email: caioandre@gmail.com</p>
+                            <p class="cliente">Nome: Caio</p>
+                            <p class="cliente">Sobrenome: Santos</p>
+                            <p class="cliente">Celular: 55 999649507</p>
+                            <p class="cliente">Cidade: São Luiz Gonzaga - RS</p>
+                            <p class="cliente">Rua: Rua Caio Do senac </p>
+                            <p class="cliente">CPF: 97800-000</p>
+
+
+                        </li>
+                    </ul>
+                    
+                </div> 
+                  
+        
+        </div>
+    </main>
+
+    <script type="module" src="main.js"></script>
+
+
+</body>
+</html>
